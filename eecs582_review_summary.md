@@ -7,7 +7,7 @@ brief and articulate in your review.
 
 ## Review for "Paper Title XXX"
 
-[your name] & [date]
+Yuchen You (yuchenxr) & [date]
 
 ### Motivation & goal
 
@@ -51,8 +51,15 @@ brief and articulate in your review.
 
 ### Solution
 
+<!-- Solution: it should be found in the Method/Design section
+    For the design overview in the Intro part, it's too general, but in Design section it should be concrete enough.
+    It's very important to read the flow chart/diagrams in this section, usually the solutions are presented visually.
+-->
+
 - Roughly speaking, how does the solution work?
+<!-- read the figure (flow chart) -->
 - What are the key techniques and algorithms used in the solution?
+<!-- read the bullet point/bold text in the introduction, they should be listed as keywords there -->
 
 ### Assumption & limitations
 
@@ -78,13 +85,24 @@ brief and articulate in your review.
 
 ### Effectiveness
 
+<!-- Evaluation Section and Related Work
+    1. Evaluation:
+      - Setup: datasets, metrics, baselines
+    2. Analysis:
+      - Result back up the hypothesis
+      - Error analysis, etc.
+-->
+
 - What experiments, analyses are conducted to evaluate the solution?
+<!-- setup, eval method (data process) -->
 - Do these results and analyses back up the paper's claims?
 - Are there any missing aspects in the evaluation?
+<!-- Consider robustness, end-to-end, scalability test -->
 
 ### Comparison
 
 - How does this work compare with some other works we have read/discussed?
+<!-- Consider the SOTA in the prev part, but here compare with result data -->
 - Does it take a radically different approach or draw a surprising conclusion?
 - Or is it more or less in line with the direction in the other works?
 
@@ -93,7 +111,7 @@ brief and articulate in your review.
 - Are you convinced that the proposed idea/solution is good?
   - that it will work well in practice?
   - e.g., will you be comfortable using it?
-- If not, what flaws you see in the work that can be improved?
+- If not, what **flaws** you see in the work that can be improved?
 - What are the new things you learned from this paper?
 
 ### Unanswered questions
