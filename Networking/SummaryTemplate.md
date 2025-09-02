@@ -1,5 +1,5 @@
 # Summary of "PAPER_NAME"
-STUDENT1\_NAME (UNIQNAME)
+Yuchen You (yuchenxr)
 
 ## Problem and Motivation
 
@@ -14,3 +14,4 @@ STUDENT1\_NAME (UNIQNAME)
 
 
 ## Summary of Class Discussion (This is only for the presenters who will update this after the lecture discussions).
+
